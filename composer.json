@@ -1,0 +1,45 @@
+{
+    "name": "renzojohnson/cf7-asset-optimizer",
+    "description": "Only loads Contact Form 7 scripts and styles on pages that contain a form. Performance optimization for CF7.",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "homepage": "https://renzojohnson.com",
+    "keywords": [
+        "wordpress",
+        "contact-form-7",
+        "cf7",
+        "performance",
+        "optimization",
+        "asset-loading",
+        "dequeue",
+        "page-speed",
+        "wpcf7"
+    ],
+    "authors": [
+        {
+            "name": "Renzo Johnson",
+            "homepage": "https://renzojohnson.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/renzojohnson/cf7-asset-optimizer/issues",
+        "source": "https://github.com/renzojohnson/cf7-asset-optimizer"
+    },
+    "require": {
+        "php": "^8.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RenzoJohnson\\CF7AssetOptimizer\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
