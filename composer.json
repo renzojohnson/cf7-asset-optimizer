@@ -3,7 +3,7 @@
     "description": "Only loads Contact Form 7 scripts and styles on pages that contain a form. Performance optimization for CF7.",
     "type": "wordpress-plugin",
     "license": "MIT",
-    "homepage": "https://renzojohnson.com",
+    "homepage": "https://renzojohnson.com/free-wordpress-plugins",
     "keywords": [
         "wordpress",
         "contact-form-7",
